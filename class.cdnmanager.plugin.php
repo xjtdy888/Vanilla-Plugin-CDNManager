@@ -19,8 +19,7 @@ $PluginInfo['CDNManager'] = array(
 class CDNManagerPlugin extends Gdn_Plugin {
     public function Base_AfterJsCdns_Handler($Sender, $args) {
 		$Cdns = &$args['Cdns'];
-		//$Cdns['jquery.js'] = 'http://libs.baidu.com/jquery/1.10.2/jquery.min.js';
-		//$Cdns['jquery-ui.js'] = 'http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js';
+
         $cdnvalue = c('Plugins.CDNManager.CDNSources');
 
         if ($cdnvalue == "") {
