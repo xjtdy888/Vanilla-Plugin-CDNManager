@@ -1,0 +1,26 @@
+### CDNManager 用CDN来加速你的vanillaforums 
+### 安装
+* 下载完成后解压到plugins目录
+* 进入控制面板->插件 启用CDNManager 
+* 点击CDNManager的设置按钮，默认添加了2个国内百度源地址
+* 进行编辑或直接保存即可加速
+
+### 说明
+vanillaforums 有CDN钩子，该插件可以让你指定需要用CDN加速的文件
+在后台启用CDNManager插件后 将需要加速的文件和对应的地址添加进去
+比如用国内baidu加速源(该配置为默认配置，需要后台保存后生效)
+
+```ini
+jquery.js = http://libs.baidu.com/jquery/1.10.2/jquery.min.js
+jquery-ui.js = http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js
+```
+
+也可以免费申请个[七牛](https://portal.qiniu.com/signup?code=3lcqpvqtedfma)存储，
+默认有10G的空间和10G的流量，够一般来使用了，申请完成后将比较大的JS或者CSS，图片，
+传上[七牛](https://portal.qiniu.com/signup?code=3lcqpvqtedfma)，然后修改对应的地址即可
+
+###相关链接
+[Vanillaforums](http://vanillaforums.org)
+[Vanillaforums Addon](http://vanillaforums.org/addons)
+[七牛] (https://portal.qiniu.com/signup?code=3lcqpvqtedfma)
+[插件博客] (https://blog.sbbok.com/)
